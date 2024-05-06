@@ -1,0 +1,43 @@
+.header {
+    height: 34vw;
+    margin: 30px auto;
+    background: url('../../images/meals.webp');
+    background-size: 100%;
+    position: relative;
+    background-repeat: no-repeat;
+}
+
+.header-contents {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 1.5vw;
+    max-width: 50%;
+    bottom: 10%;
+    left: 6vw;
+    animation: fadeIn 3s;
+}
+
+.header-contents h2 {
+    font-weight: 500;
+    color: black;
+    font-size: max(3.5vw,19px);
+    text-shadow: 1px 1px white;
+}
+
+.header-contents p {
+    color: white;
+    font-size: 17px;
+
+}
+
+.header-contents button{
+    border: none;
+    color: #747474;
+    font-weight: 500;
+    padding: 1vw 2.3vw;
+    background-color: white;
+    font-size: max(1vw,13px);
+    border-radius: 50px;
+}
